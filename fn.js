@@ -9,7 +9,7 @@ const codes = {
   bgGreen: [42, 49],
   bgYellow: [43, 49],
   bgBlue: [44, 49],
-  bgWhite: [47, 49],
+  bgWhite: [47, 49]
 };
 
 const colors = {};

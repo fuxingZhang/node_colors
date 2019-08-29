@@ -23,5 +23,11 @@ declare global {
     yellow: string;
     blue: string;
     white: string;
+
+    bgRed: string;
+    bgGreen: string;
+    bgYellow: string;
+    bgBlue: string;
+    bgWhite: string;
   }
 }
