@@ -25,10 +25,18 @@ const colors = require('@zhangfuxing/colors/fn');
 console.log(colors.green('test'));
 ```
 
-### colors  
+### text colors  
 
 * red 
 * green
 * yellow
 * blue
 * white
+
+### background colors
+
+* bgRed
+* bgGreen
+* bgYellow
+* bgBlue
+* bgWhite
