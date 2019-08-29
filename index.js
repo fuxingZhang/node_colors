@@ -21,8 +21,7 @@ const codes = {
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer
 
-
-Object.keys(codes).forEach(function(key) {
+Object.keys(codes).forEach(function (key) {
   const val = codes[key];
   Object.defineProperty(String.prototype, key, {
     get() {

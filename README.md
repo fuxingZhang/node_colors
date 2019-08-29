@@ -1,23 +1,34 @@
 # node_colors
 node.js console with colors
 
-### example  
-```  
-require('../lib');
+## Install
 
-console.log('index'.green);
-```  
-
-### example2  
-```  
-require('../lib/index2');
-
-console.log('index2'.yellow());
+```sh
+$ npm i @zhangfuxing/colors
 ```  
 
-### example3  
-```  
-const colors = require('../lib/index3');
+## Useage  
 
-console.log(colors.blue('index3'));
-```  
+### getter mode  
+
+```js  
+require('@zhangfuxing/colors');
+
+console.log('test'.red);
+```
+
+### function mode  
+
+```js  
+const colors = require('@zhangfuxing/colors/function');
+
+console.log(colors.green('test'));
+```
+
+### colors  
+
+* red 
+* green
+* yellow
+* blue
+* white
