@@ -20,7 +20,7 @@ console.log('test'.red);
 ### function mode  
 
 ```js  
-const colors = require('@zhangfuxing/colors/function');
+const colors = require('@zhangfuxing/colors/fn');
 
 console.log(colors.green('test'));
 ```
